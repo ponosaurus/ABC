@@ -1,7 +1,7 @@
 /**
  * @file
- * ABC(番号)_(問題番号) (タイトル)
- * https://atcoder.jp/contests/abc000/tasks/abc000_x
+ * ABC454_B Mapping
+ * https://atcoder.jp/contests/abc454/tasks/abc454_b
  * 
  * (状況)
  * 
@@ -57,5 +57,15 @@ struct Init { Init() { ios::sync_with_stdio(0); cin.tie(0); } }init;
 
 
 int main() {
+  int n, m;
+  cin >> n >> m;
+  si f;
+  rep(i, n) {
+    int tmp;
+    cin >> tmp;
+    f.insert(tmp);
+  }
+  cout << (f.size() == n ? "Yes" : "No") << endl;
+  cout << (f.size() == m ? "Yes" : "No") << endl;
   return 0;
 }

@@ -1,7 +1,7 @@
 /**
  * @file
- * ABC(番号)_(問題番号) (タイトル)
- * https://atcoder.jp/contests/abc000/tasks/abc000_x
+ * ABC454_A Closed interval
+ * https://atcoder.jp/contests/abc454/tasks/abc454_a
  * 
  * (状況)
  * 
@@ -39,7 +39,6 @@ using namespace boost;
 // typedef
 typedef long long ll;
 typedef unsigned long long ull;
-typedef set<int> si;
 typedef pair<int, int> pii;
 typedef pair<ll, ll> pll;
 typedef vector<int> vi;
@@ -57,5 +56,9 @@ struct Init { Init() { ios::sync_with_stdio(0); cin.tie(0); } }init;
 
 
 int main() {
+  int l, r;
+  cin >> l >> r;
+  cout << r-l+1 << endl;
+
   return 0;
 }

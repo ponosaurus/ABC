@@ -1,7 +1,7 @@
 /**
  * @file
- * ABC(番号)_(問題番号) (タイトル)
- * https://atcoder.jp/contests/abc000/tasks/abc000_x
+ * ABC454_D (xx)
+ * https://atcoder.jp/contests/abc454/tasks/abc454_d
  * 
  * (状況)
  * 
@@ -39,7 +39,6 @@ using namespace boost;
 // typedef
 typedef long long ll;
 typedef unsigned long long ull;
-typedef set<int> si;
 typedef pair<int, int> pii;
 typedef pair<ll, ll> pll;
 typedef vector<int> vi;
