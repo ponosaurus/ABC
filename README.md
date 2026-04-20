@@ -25,5 +25,12 @@ ABCの学習記録リポジトリです
     └── `template.kt` Kotlinのテンプレ
 ```
 
-## `.codetest/` について
-[こちらのリポジトリ](https://github.com/Nattyu3/codetest_like) からまるまる拝借しています
+> [!NOTE]
+> `.codetest/` について
+> [こちらのリポジトリ](https://github.com/Nattyu3/codetest_like) からまるまる拝借しています
+
+## 進捗
+https://kenkoooo.com/atcoder/#/user/ponzu_domo?userPageTab=AtCoder+Pie+Charts
+
+- 実務と競プロのコードが割と別物であるのに気がついて、自作マクロを使わずに解く練習をしていたのをやめました
+- 同じ理由で、Kotlinで解く練習をしていたのをやめました
