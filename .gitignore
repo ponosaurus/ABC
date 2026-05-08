@@ -1,0 +1,15 @@
+# macOS の Finder が自動で作るファイル
+.DS_Store
+
+# 競プロ用のローカルテスト環境
+.codetest/
+
+# C++ / Kotlin のビルド成果物
+*.o
+*.obj
+*.exe
+*.out
+*.class
+*.jar
+build/
+cmake-build-*/
